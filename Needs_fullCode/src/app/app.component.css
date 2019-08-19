@@ -1,0 +1,48 @@
+.header{
+    padding: 12px;
+    background-color: black
+}
+.header-icons a{
+    color:white !important
+}
+.emailId{
+    color: white;
+    font-size: 0.9rem;
+}
+.logo{
+    height: 12vh;
+    width: 38vh;
+}
+.bg-cadetblue{
+    background-color: white
+}
+.nav-link{
+    color: black !important;
+    margin-left: 1.5vw;
+    font-family: sans-serif;
+}
+.join{
+    padding-top: 0.4vh;
+    font-size: 0.9rem;
+}
+.nav-link:hover{
+    color:#dc3545 !important;
+}
+.navbar{
+    padding: 0px !important;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.footerLink{
+    display: inline-grid;
+    padding-left: 7vw;
+}
+.footerLink li a:hover{
+    color: #dc3545 !important
+}
+.main-route{
+    height: 100vh;
+}
+     

@@ -1,0 +1,14 @@
+<br>
+<div class="container">
+  <div class="row">
+      <div class="col-sm-4" *ngFor="let event of allEvents">
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src={{event.imagePath}} alt="Card image cap">
+              <div class="card-body  text-center">
+                <button [routerLink]="['/Event',event.id]" class="card-title pointer btn btn-primary center-block">{{event.Title}}</button>
+                <!-- <a style="text-align: center" [routerLink]="['/Event',event.id]" class="">View More</a> -->
+              </div>
+            </div>
+      </div>
+    </div>
+</div>
